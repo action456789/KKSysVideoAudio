@@ -28,9 +28,6 @@
 // 图片输出
 @property (nonatomic, strong) AVCaptureStillImageOutput *stillImageOutput;
 
-// 音频输出
-@property (nonatomic, strong) AVCaptureAudioDataOutput *audioOutput;
-
 @end
 
 @implementation KKSysVideoSource {

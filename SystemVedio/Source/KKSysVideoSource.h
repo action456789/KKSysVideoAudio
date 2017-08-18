@@ -27,12 +27,7 @@ typedef NS_ENUM(NSUInteger, KKVideoOutputType) {
 
 @property (nonatomic, weak) id <KKSysVideoSourceDelegate> delegate;
 
-//@property (nonatomic, assign) BOOL addStillImageOutput;
-//@property (nonatomic, assign) BOOL addVideoDataOutput;
-
 @property (nonatomic, assign) KKVideoOutputType videoOutputType;
-
-@property (nonatomic, assign, setter=isAutioOutputEnable) BOOL audioOutputEnable;
 
 - (instancetype)initWithParentView:(UIView *)view;
 
