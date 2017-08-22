@@ -10,4 +10,7 @@
 
 @interface KKSysAudioSource : NSObject
 
+- (void)start;
+- (void)stop;
+
 @end

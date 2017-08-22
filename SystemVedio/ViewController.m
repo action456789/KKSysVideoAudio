@@ -12,6 +12,7 @@
 #import "KKSysVideoSource.h"
 #import "KKGPUImageVideoSource.h"
 #import "KKOpenCVVideoSource.h"
+#import "KKSysAudioSource.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIView *openCVView;
@@ -26,16 +27,20 @@
     KKSysVideoSource *_videoSource;
     KKGPUImageVideoSource *_giVideoSource;
     KKOpenCVVideoSource *_opencvVideoSource;
+    KKSysAudioSource *_audioSource;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self systemCamera];
+//    [self systemCamera];
     
 //    [self gpuImageCamera];
     
 //    [self opencvCamera];
+    
+    _audioSource = [KKSysAudioSource new];
+    [_audioSource start];
 }
 
 - (void)opencvCamera {

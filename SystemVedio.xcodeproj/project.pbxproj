@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8145B6811F46F01900A904A0 /* test.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8145B6801F46F01900A904A0 /* test.mov */; };
 		81825C3A1F2B27F400E9102E /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 81825C2F1F2B27F400E9102E /* UIImage+OpenCV.mm */; };
 		81825C3B1F2B27F400E9102E /* liblibjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81825C301F2B27F400E9102E /* liblibjpeg.a */; };
 		81825C3C1F2B27F400E9102E /* FJFaceDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 81825C331F2B27F400E9102E /* FJFaceDetector.mm */; };
@@ -25,6 +26,7 @@
 		819CF25A1F21E09800C62B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819CF2591F21E09800C62B19 /* Assets.xcassets */; };
 		819CF25D1F21E09800C62B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819CF25B1F21E09800C62B19 /* LaunchScreen.storyboard */; };
 		81A9BDBF1F23484300327453 /* NSFileManager+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A9BDBE1F23484300327453 /* NSFileManager+File.m */; };
+		81B3AA561F46C4DC00B0208C /* KKSysAudioSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B3AA551F46C4DC00B0208C /* KKSysAudioSource.m */; };
 		81BAE2391F2ACC590069CA89 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BAE2381F2ACC590069CA89 /* libc++.tbd */; };
 		81BAE23B1F2ACC610069CA89 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BAE23A1F2ACC610069CA89 /* AVFoundation.framework */; };
 		81BAE23D1F2ACC6A0069CA89 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BAE23C1F2ACC6A0069CA89 /* CoreImage.framework */; };
@@ -46,6 +48,7 @@
 /* Begin PBXFileReference section */
 		34AFF70DD6AF696028DF63D0 /* Pods-SystemVedio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SystemVedio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SystemVedio/Pods-SystemVedio.debug.xcconfig"; sourceTree = "<group>"; };
 		57210E1294BC257F86D3C346 /* libPods-SystemVedio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SystemVedio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8145B6801F46F01900A904A0 /* test.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = test.mov; sourceTree = "<group>"; };
 		81825C2E1F2B27F400E9102E /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
 		81825C2F1F2B27F400E9102E /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
 		81825C301F2B27F400E9102E /* liblibjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibjpeg.a; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 		819CF25E1F21E09800C62B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81A9BDBD1F23484300327453 /* NSFileManager+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+File.h"; sourceTree = "<group>"; };
 		81A9BDBE1F23484300327453 /* NSFileManager+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+File.m"; sourceTree = "<group>"; };
+		81B3AA541F46C4DC00B0208C /* KKSysAudioSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSysAudioSource.h; sourceTree = "<group>"; };
+		81B3AA551F46C4DC00B0208C /* KKSysAudioSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSysAudioSource.m; sourceTree = "<group>"; };
 		81BAE2381F2ACC590069CA89 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		81BAE23A1F2ACC610069CA89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		81BAE23C1F2ACC6A0069CA89 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -190,6 +195,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		8185E27F1F4C269200B7C5AD /* OpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OpenSSL;
+			sourceTree = "<group>";
+		};
 		818DF0961F272605006E873D /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +253,7 @@
 		819CF24C1F21E09800C62B19 /* SystemVedio */ = {
 			isa = PBXGroup;
 			children = (
+				8185E27F1F4C269200B7C5AD /* OpenSSL */,
 				81FD6BAC1F4691AC0041D872 /* Source */,
 				81825C2C1F2B27F400E9102E /* OpenCV */,
 				818DF0A91F29DC2C006E873D /* GPUImage */,
@@ -267,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				819CF24E1F21E09800C62B19 /* main.m */,
+				8145B6801F46F01900A904A0 /* test.mov */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -282,6 +296,8 @@
 				81FD6BAE1F4691AC0041D872 /* KKGPUImageVideoSource.m */,
 				81FD6BAF1F4691AC0041D872 /* KKOpenCVVideoSource.h */,
 				81FD6BB01F4691AC0041D872 /* KKOpenCVVideoSource.m */,
+				81B3AA541F46C4DC00B0208C /* KKSysAudioSource.h */,
+				81B3AA551F46C4DC00B0208C /* KKSysAudioSource.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -320,7 +336,7 @@
 				TargetAttributes = {
 					819CF2491F21E09800C62B19 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 33UJTTK2KL;
+						DevelopmentTeam = 8R82CV2HXA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -348,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8145B6811F46F01900A904A0 /* test.mov in Resources */,
 				819CF25D1F21E09800C62B19 /* LaunchScreen.storyboard in Resources */,
 				819CF25A1F21E09800C62B19 /* Assets.xcassets in Resources */,
 				81825C401F2B27F400E9102E /* haarcascade_frontalface_alt2.xml in Resources */,
@@ -418,6 +435,7 @@
 				818DF0AE1F29DC56006E873D /* GPUImageBeautifyFilter.m in Sources */,
 				819CF2551F21E09800C62B19 /* ViewController.m in Sources */,
 				81FD6BB51F4691AC0041D872 /* KKGPUImageVideoSource.m in Sources */,
+				81B3AA561F46C4DC00B0208C /* KKSysAudioSource.m in Sources */,
 				818DF0A21F272968006E873D /* KKVideoConfig.m in Sources */,
 				81FD6BB81F4691AC0041D872 /* KKVideoSource.m in Sources */,
 				81FD6BB71F4691AC0041D872 /* KKSysVideoSource.m in Sources */,
@@ -549,7 +567,7 @@
 			baseConfigurationReference = 34AFF70DD6AF696028DF63D0 /* Pods-SystemVedio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 33UJTTK2KL;
+				DEVELOPMENT_TEAM = 8R82CV2HXA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SystemVedio",
@@ -573,7 +591,7 @@
 			baseConfigurationReference = D160DC98619B7D196736ED89 /* Pods-SystemVedio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 33UJTTK2KL;
+				DEVELOPMENT_TEAM = 8R82CV2HXA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SystemVedio",
